@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   first-job:
@@ -12,10 +13,3 @@ jobs:
     steps:
       - name: Welcome
         run: echo "My first GitHub Actions workflow is working"
-        
-        
-on:
-   push:
-    branches:
-      - main
-   workflow_dispatch:
