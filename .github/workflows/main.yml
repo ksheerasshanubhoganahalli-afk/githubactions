@@ -7,8 +7,8 @@ on:
 
 jobs:
   first-job:
-  runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
-steps:
-  -name:Welcome
-  run:echo "My first github actions workflow is working"
+    steps:
+      - name: Welcome
+        run: echo "My first GitHub Actions workflow is working"
